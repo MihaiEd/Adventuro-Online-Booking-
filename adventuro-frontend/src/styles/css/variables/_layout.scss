@@ -1,0 +1,19 @@
+$card-box-shadow: 0 .3rem .6rem rgba(0,0,0,0.16), 0 .3rem .6rem rgba(0,0,0,0.23);
+$card-box-shadow-highlight: 0 .3rem .6rem rgba(0,0,255,0.16), 0 .3rem .6rem rgba(0,0,255,0.23);
+$card-box-shadow-select: 0 .3rem .6rem rgba(0,0,255,0.2), 0 .3rem .6rem rgba(0,0,255,0.27);
+$card-border-radius: 1.5rem;
+
+//paddings
+$col-padding: 2rem;
+
+@mixin card-hover {
+	box-shadow: $card-box-shadow-highlight;
+	border: 1px solid cornflowerblue;
+	cursor: pointer;
+}
+
+@mixin card-select {
+	box-shadow: $card-box-shadow-select;
+	border: 1px solid midnightblue;
+	cursor: pointer;
+}

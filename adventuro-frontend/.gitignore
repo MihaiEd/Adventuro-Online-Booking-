@@ -1,0 +1,11 @@
+node_modules
+dist
+node
+yarn.lock
+.DS_Store
+*.log
+.idea
+.vscode
+.cache
+.eslintcache
+package-lock.json

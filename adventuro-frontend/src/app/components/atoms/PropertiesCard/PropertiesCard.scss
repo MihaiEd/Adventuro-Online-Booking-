@@ -1,0 +1,68 @@
+@import "src/styles/css/variables/variables";
+
+$PropertiesCard: ".mla-properties-card";
+
+#{$PropertiesCard} {
+	margin: 1rem;
+	&:hover{
+		cursor: pointer;
+	}
+	h1{
+		font-size: 2rem;
+		font-weight: bold;
+		-webkit-box-orient: vertical;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: normal;
+	}
+	h2{
+		font-size: 1.6rem;
+		color: #9da3a4;
+	}
+	p{
+		padding: 0 1rem;
+		text-align: left;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: normal;
+		max-height: 100px;
+	}
+	&__image{
+		img{
+			min-width: 350px;
+			min-height: 350px;
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: cover;
+			border-radius: 1rem;
+		}
+	}
+	.header{
+		text-align: left;
+		padding-left: 1rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	.price{
+		display: flex;
+		justify-content: space-between;
+		padding: .5rem;
+		h4{
+			color: #b02929;
+			font-weight: bold;
+		}
+		h5{
+			font-size: 14px;
+			font-weight: bold;
+		}
+	}
+}
+
+//.cardsWrapper{
+//	display: flex;
+//}

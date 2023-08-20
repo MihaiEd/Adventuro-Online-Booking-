@@ -1,0 +1,14 @@
+@import "src/styles/css/variables/variables";
+
+$CategoryCard: ".mla-category-card";
+
+#{$CategoryCard} {
+	&--selected {
+		#{$Card} {
+			@include card-select();
+			&:hover {
+				@include card-hover();
+			}
+		}
+	}
+}

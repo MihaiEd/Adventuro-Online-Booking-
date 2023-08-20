@@ -1,0 +1,10 @@
+@import "src/styles/css/variables/variables";
+
+#{$Card} {
+	background: #FFF;
+	border-radius: $card-border-radius;
+	box-shadow: $card-box-shadow;
+	//width: 100%;
+	height: 100%;
+	display: inline-block;
+}

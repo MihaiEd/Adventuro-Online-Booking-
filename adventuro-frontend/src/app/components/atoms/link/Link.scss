@@ -1,0 +1,13 @@
+@import "src/styles/css/variables/variables";
+
+#{$Link} {
+
+	font-weight: bold;
+	padding: 2rem;
+	color: cornflowerblue;
+
+	&:hover {
+		text-decoration: none !important;
+		color: #638bdc;
+	}
+}

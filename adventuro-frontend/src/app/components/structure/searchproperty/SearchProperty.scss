@@ -1,0 +1,38 @@
+$SearchProperty: ".mla-searchproperty";
+
+#{$SearchProperty} {
+	&__wrapper {
+		#{Input} {
+			font-size: 1.6rem;
+		}
+		#{Label} {
+			font-size: 1.4rem;
+		}
+		> div {
+			margin: 2rem 1rem;
+		}
+		display: flex;
+		background-color: white;
+		//align-items: center;
+		border-radius: 10px;
+		transition: transform 0.2s;
+		//justify-content: center;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	&__title {
+		text-align: left;
+	}
+
+	&__circle {
+		display: flex;
+		width: 20px;
+		height: 20px;
+		margin-right: 30px;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 5px;
+	}
+}

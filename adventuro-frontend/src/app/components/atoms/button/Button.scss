@@ -1,0 +1,39 @@
+@import "src/styles/css/variables/variables";
+
+#{$Button} {
+	border: none;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 2rem;
+	&--hover {
+		background-color: transparent;
+	}
+	&--outlined {
+		font-size: inherit;
+		border: 2px solid black;
+		background: cornflowerblue;
+		color: white;
+		width: fit-content;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	&--contained {
+		font-size: inherit;
+		border: none;
+		background: cornflowerblue;
+		color: white;
+		width: fit-content;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	&:hover {
+		background: #406198;
+		cursor: pointer;
+	}
+
+}
+

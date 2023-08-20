@@ -1,0 +1,65 @@
+@import "src/styles/css/variables/variables";
+$Register: ".mla-register";
+
+#{$Register} {
+	width: fit-content;
+	max-width: 70%;
+	height: fit-content;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	#{$Card} {
+		width: 35rem;
+		background-color: #f7f7f7;
+		padding: 20px 25px 30px;
+		margin: 50px auto 25px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+		#{Div} {
+			display: flex;
+			justify-content: center;
+			padding: 1rem;
+		}
+	}
+	#{h1} {
+		display: flex;
+		justify-content: center;
+		font-size: 3.5rem;
+	}
+	#{Input} {
+		padding: .5rem;
+		margin: .1rem;
+		font-size: 1.7rem;
+	}
+	#{$Button} {
+		background: darkgray;
+		border-radius: 0rem;
+	}
+	&__profile-img-card {
+		width: 96px;
+		height: 96px;
+		margin: 0 auto 10px;
+		display: block;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+	&__div-flex {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	#{$Link} {
+		text-decoration: underline;
+		padding: 1.6rem;
+		font-size: inherit;
+		color: black;
+		font: inherit;
+	}
+}

@@ -1,0 +1,23 @@
+@import "src/styles/css/variables/variables";
+
+$Table: ".mla-table";
+#{$Table} {
+	width: 100%;
+	th, td{
+		text-align: center;
+		padding: 1rem;
+	}
+
+	th{
+		background-color: #1c51b9;
+		color: white;
+	}
+
+	tr:nth-child(odd){
+		background: #d3d4d5;
+	}
+
+	tr:nth-child(even){
+		background: #e3dfdf;
+	}
+}

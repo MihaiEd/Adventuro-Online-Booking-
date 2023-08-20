@@ -1,0 +1,47 @@
+@import "src/styles/css/variables/variables";
+
+$Toolbar: ".mla-toolbar";
+#{$Toolbar} {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	height: 6rem;
+	width: 100%;
+	background-color: #f7f7f7;
+
+	h3 {
+		padding: 0 $col-padding;
+	}
+
+	&__button-container {
+		display: flex;
+		flex-direction: row;
+
+		#{$Button} {
+			margin: $col-padding/2;
+		}
+	}
+
+	#{$Link} {
+		padding: 1.6rem;
+		color: black;
+		font: inherit;
+	}
+
+	&__button-class {
+		border-radius: 1rem;
+		width: 13rem;
+		font-size: inherit;
+	}
+
+	&__div-orientation {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		width: 100%;
+		margin-right: 2rem;
+	}
+}

@@ -1,0 +1,32 @@
+@import "src/styles/css/variables/variables";
+
+$Properties: ".mla-properties";
+$Table: ".mla-table";
+$Checkbox: ".mla-checkbox";
+
+#{$Properties} {
+	&__container {
+		display: flex;
+		width: 100%;
+		margin: 7rem 1rem 0 3rem;
+	}
+	&__actions {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		justify-content: center;
+		#{$Button} {
+			margin: .2rem;
+		}
+	}
+}
+
+#{$Table} {
+	padding: 1rem 3rem 3rem 3rem;
+	font-size: 13px;
+}
+
+#{$Checkbox} {
+	display: flex;
+	justify-content: center;
+}

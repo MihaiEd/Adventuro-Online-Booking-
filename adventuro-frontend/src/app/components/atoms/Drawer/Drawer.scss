@@ -1,0 +1,12 @@
+@import "src/styles/css/variables/variables";
+
+#{$Drawer} {
+		height: 100%;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 20rem;
+		background-color: #fff;
+		padding: 10px;
+
+}

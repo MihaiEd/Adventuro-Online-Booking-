@@ -1,0 +1,18 @@
+@import "src/styles/css/variables/variables";
+
+$CategoriesList: ".mla-categories-list";
+
+#{$CategoriesList} {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-flow: wrap;
+	#{$Card} {
+		width: fit-content;
+		margin: $col-padding;
+		padding: $col-padding;
+		&:hover {
+			@include card-hover();
+		}
+	}
+}
